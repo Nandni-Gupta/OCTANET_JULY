@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jua&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  background-image: url(img/background.jpg);
+  /* background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%; */
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 56px;
+}
+
+.navbar {
+  display: flex;
+  gap: 40px;
+}
+
+.navbar h2 {
+  color: rgb(255, 255, 255);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+}
+.navbar a.active {
+  color: #ffffff;
+}
+.navbar a:hover {
+  color: #2d2c2d;
+}
+
+.action_buttons {
+  display: flex;
+  gap: 24px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.profile .login {
+  color: #ffffff;
+  margin-left: 8px;
+  text-decoration: none;
+}
+
+hr {
+  margin-top: -4px;
+  margin-left: 58px;
+  margin-right: 55px;
+}
+
+.bonus {
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 0, 0);
+  float: right;
+  margin-right: 55px;
+  font-size: 13px;
+  margin-top: 2px;
+}
+
+.left {
+  width: 23rem;
+  height: 25rem;
+  margin: 5.5rem 4rem;
+  color: #ffffff;
+}
+
+.left h1 {
+  font-size: 3.5rem;
+  font-weight: 200;
+}
+
+.left p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  margin-right: 44px;
+}
+
+/* CSS */
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+footer {
+  margin-top: 4.5rem;
+  display: flex;
+  color: #ffffff;
+}
+
+footer p {
+  margin-left: 10px;
+}
+
+.right {
+  color: white;
+  float: right;
+  display: flex;
+  justify-content: space-evenly;
+  width: 20rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
